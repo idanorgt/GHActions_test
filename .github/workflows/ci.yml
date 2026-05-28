@@ -24,7 +24,7 @@ jobs:
         run: python app.py  # executes your script [web:16][web:21]
 
       - name: Checkmarx One CLI Action
-        uses: checkmarx/ast-github-action@e3f1356c077fcb2ad2062ccc8c9f1631bae5912 #Github Action version
+        uses: checkmarx/ast-github-action@e3f1356c077fcb2ad2062ccc8c9f1631bae59128 #Github Action version
         with:
           project_name: ${{ github.repository }}
           cx_tenant: ${{ secrets.CX_TENANT }}
